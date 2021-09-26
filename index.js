@@ -79,7 +79,14 @@ Math.floor(Math.random() * 5); //returns a random int in the range of 0 to 5 (in
 Math.floor(Math.random() * 5) + 1; //returns a random int from 1 to 5;
 
 //string template literal exercise
-// NO TOUCHING! (please)
+/*
+die1 and die2 variables represents six-sided dice. Each variable holds a randomly generated int 
+from 1 to 6. Create a new variable called roll, which will be a string that displays each dice
+as well as their sum. Follow this pattern:
+ - die1 : 3
+ - die2 : 5
+ - roll : "You rolled a 3 and a 5. They sum to 8"
+*/
 const die1 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
 const die2 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
 
