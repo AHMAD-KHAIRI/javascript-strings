@@ -61,6 +61,33 @@ const word = "skateboard"; //Don't change this line!
 let facialHair = word.slice(5).replace('o', 'e');   //outputs 'beard'
 
 
+//null and undefined
+let loggedInUser = null;    //value is explicityly nothing
+
+//math object - contains properties and methods for mathematical constants and functions
+//example:
+Math.PI; //outputs 3.14159...
+Math.round(4.9); //rounding a number to the nearest integer - outputs 5
+Math.round(4.1); // outputs 4
+Math.abs(-456); //absolute value - outputs 456
+Math.pow(2, 5); //raises 2 to the power of 5 - outputs 32 [it's the same as 2 ** 5]
+Math.floor(3.999); //removes decimal - outputs 3
+Math.ceil(3.999); //rounds a number to the next largest integer - outputs 4
+Math.ceil(3.1); //outputs 4
+Math.random(); //returns a floating-point, pseudo-random number in the range 0 to less than 1 (inclusive of 0, but not 1)
+Math.floor(Math.random() * 5); //returns a random int in the range of 0 to 5 (including the num 0)
+Math.floor(Math.random() * 5) + 1; //returns a random int from 1 to 5;
+
+//string template literal exercise
+// NO TOUCHING! (please)
+const die1 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
+const die2 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
+
+// YOUR CODE BELOW THIS LINE:
+let roll = 'You rolled a ' + die1 + ' and a ' + die2 + '. They sum to ' + (die1 + die2);
+
+
+
 
 
 
